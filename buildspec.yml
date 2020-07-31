@@ -9,7 +9,6 @@ phases:
     pre_build:
       commands:
         - npm install
-        - npm test
     build:
       commands:
         - echo Build started on `date`
