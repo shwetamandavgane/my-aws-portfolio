@@ -8,11 +8,11 @@ phases:
         - echo no commands yet
     pre_build:
       commands:
-        - echo no commands here
+        - npm install
+        - npm test
     build:
       commands:
         - echo Build started on `date`
-        - npm install
         - npm run webpack
     post_build:
       commands:
