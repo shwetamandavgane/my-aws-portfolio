@@ -23,4 +23,4 @@ artifacts:
     - Shweta Mandavgane-Resume.pdf
     - styles/*
     - images/*
-    - dist/bundle.js
+    - dist/*
