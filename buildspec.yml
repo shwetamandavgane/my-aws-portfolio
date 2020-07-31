@@ -3,7 +3,8 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo Nothing to do stylesheet
+      - npm install
+      - npm run webpack
 artifacts:
   files:
     - index.html
@@ -11,3 +12,4 @@ artifacts:
     - Shweta Mandavgane-Resume.pdf
     - styles/*
     - images/*
+    - dist/bundle.js
