@@ -1,10 +1,22 @@
-version: 0.1
+version: 0.2
 
 phases:
-  build:
-    commands:
-      - npm install
-      - npm run webpack
+    install:
+      runtime-versions:
+        java: corretto11
+      commands:
+        - echo no commands yet
+    pre_build:
+      commands:
+        - echo no commands here
+    build:
+      commands:
+        - echo Build started on `date`
+        - npm install
+        - npm run webpack
+    post_build:
+      commands:
+        - echo no commands here
 artifacts:
   files:
     - index.html
