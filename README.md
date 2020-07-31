@@ -4,15 +4,16 @@ This is my professional portfolio. It uses AWS and React
 
 ##Technologies used:
 
-Chocolatey
-Git & github
-SSH
-AWS S3
-AWS Lambda with Python and boto3
-AWS CodeBuild
-AWS CodePipeline
-AWS SNS
-HTML
-CSS
-Font Awesome
-Google Fonts
+* AWS
+     * S3                 * Lambda with Python and boto3
+     * CodeBuild          * CodePipeline
+     * SNS                * CloudFront & SSL
+     * Route 53 & DNS     * Certificate Manager
+     * CloudWatch         * IAM
+* UI  
+     * ReactJS    
+     * HTML               * CSS
+     * Font Awesome       * Google Fonts
+* Chocolatey
+* Version Control
+     * Git & github   * SSH
