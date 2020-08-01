@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch",
-    "build" : "webpack"
+    "build": "webpack -p --progress"
   },
   "repository": {
     "type": "git",
@@ -20,15 +20,29 @@
   },
   "homepage": "https://github.com/shwetamandavgane/my-portfolio#readme",
   "dependencies": {
+    "@carbon/icons-react": "^10.14.0",
+    "@carbon/themes": "^10.15.0",
+    "carbon-components": "^10.16.0",
+    "carbon-components-react": "^7.16.0",
+    "css-loader": "^4.2.0",
     "local-web-server": "^4.2.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^4.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react-hot-loader": "^4.12.21",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "webpack": "^4.44.1",
     "webpack-cli": "^2.0.13"
   }
 }
