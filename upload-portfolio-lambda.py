@@ -13,7 +13,7 @@ def lambda_handler(event, context):
 
     location = {
         "bucketName":'springboot-codepipelines3bucket',
-        "objectKey": 'portfoliobuilds'
+        "objectKey": 'portfoliobuilds.zip'
     }
 
     try:
@@ -21,7 +21,7 @@ def lambda_handler(event, context):
 
         if job:
             for artifact in job["data"]["inputArtifacts"]:
-                if artifact["name"] == "portfoliobuilds" :
+                if artifact["name"] == "portfoliobuilds.zip" :
                     location = artifact["location"]["s3Location"]
 
         print "Building portfolio from " + str(location)

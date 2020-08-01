@@ -8,11 +8,11 @@ phases:
         - echo no commands yet
     pre_build:
       commands:
-        - npm install
+        - npm install --save
     build:
       commands:
         - echo Build started on `date`
-        - npm run webpack
+        - npm run webpack --save
     post_build:
       commands:
         - echo no commands here
@@ -23,4 +23,4 @@ artifacts:
     - Shweta Mandavgane-Resume.pdf
     - styles/*
     - images/*
-    - bundlewebpack/*
+    - dist/bundle.js
