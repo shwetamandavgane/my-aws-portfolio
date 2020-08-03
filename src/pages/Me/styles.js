@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const ProfileLink = styled.li`
   margin-right: 0.5rem;

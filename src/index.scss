@@ -30,3 +30,22 @@ a.bx--side-nav__link > .bx--side-nav__link-text,
   > span {
   color: $text-04;
 }
+
+.section--social {
+  float: left;
+  line-height: 4rem;
+  margin-left: 0.75rem;
+}
+
+.social {
+  margin-left: 0.75rem;
+}
+
+.socialWrapper:last-child .social {
+  margin-left: 0.75rem;
+}
+
+.socialWrapper {
+  display: inline-block;
+  font-size: 2rem;
+}

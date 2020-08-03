@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   if (!user) {
-    return <div> No user </div>;
+    return <div> Please wait ... Loading Portfolio!! </div>;
   }
 
 //  return <div>Multiple user </div>;

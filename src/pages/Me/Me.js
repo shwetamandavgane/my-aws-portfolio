@@ -20,16 +20,24 @@ const Me = ({ user }) => {
       </div>
       <div>
         <SectionTitle>Profiles</SectionTitle>
-        <ul>
-          {user.basics.profiles.map((profile, i) => (
-            <ProfileLink key={profile.network}>
-              {i !== 0 && ' | '}
-              <a href={profile.url} target="_blank" rel="noreferrer noopener">
-                {profile.network}
-              </a>
-            </ProfileLink>
-          ))}
-        </ul>
+         <ul class="section--social">
+         <li class="socialWrapper">
+           <a class="color--teal social"
+              title="LinkedIn Profile"
+              target="_blank"
+              href="https://www.linkedin.com/in/shweta-mandavgane/">
+             <i class="fa fa-linkedin"></i>
+           </a>
+         </li>
+         <li class="socialWrapper color--teal">
+           <a class="social color--teal"
+              title="GitHub Profile"
+              target="_blank"
+              href="https://github.com/shwetamandavgane">
+             <i class="fa fa-github"></i>
+           </a>
+         </li>
+       </ul>
       </div>
     </Layout>
   );
